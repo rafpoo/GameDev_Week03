@@ -16,7 +16,8 @@ public class CCTVScript : MonoBehaviour
     {
         Vector3 jarakCctvHero = target.transform.position - transform.position;
         Quaternion rot = Quaternion.LookRotation(jarakCctvHero);
-        transform.rotation = Quaternion.Euler(0, rot.eulerAngles.y, 0);
+        // transform.rotation = Quaternion.Euler(0, rot.eulerAngles.y, 0);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, rot.eulerAngles.y, 0), 10f * Time.deltaTime);
         Debug.DrawRay(transform.position, jarakCctvHero, Color.red);
     }
 }

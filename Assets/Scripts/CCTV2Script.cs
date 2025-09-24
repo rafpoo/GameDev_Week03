@@ -19,6 +19,7 @@ public class CCTV2Script : MonoBehaviour
         float angle = Mathf.Atan2(jarakCctvHero.x, jarakCctvHero.z) * Mathf.Rad2Deg;
 
         Quaternion rotasi = Quaternion.AngleAxis(angle, Vector3.up);
-        transform.rotation = rotasi;
+        // transform.rotation = rotasi;
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotasi, Time.deltaTime);
     }
 }
