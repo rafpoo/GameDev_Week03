@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8995638963850278133}
   - component: {fileID: 8116691321867822174}
   - component: {fileID: 333259174737700814}
+  - component: {fileID: -5649014574557579199}
   m_Layer: 0
   m_Name: musuh
   m_TagString: musuh
@@ -106,6 +107,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5649014574557579199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6839694653398058699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61791a07c4a845c4db5492b52816dc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8838806050493852634
 GameObject:
   m_ObjectHideFlags: 0
