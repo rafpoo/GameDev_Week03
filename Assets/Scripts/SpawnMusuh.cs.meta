@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c9a95a3cb93191440975960beace931e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musuh: {fileID: 6839694653398058699, guid: 22792f9632e1c56479d7f56dda212657, type: 3}
+  - posisiAwalMusuh: {fileID: 3197796527876190607, guid: 6ec5961d3cef69c41976f95ff708bd18, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
